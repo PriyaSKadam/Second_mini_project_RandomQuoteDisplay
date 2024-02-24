@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    password: ''
+    url: jdbc:mysql://localhost:3306/MiniProject2
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: teuhfyznvbdfehzi
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: priyankasurawanshi909@gmail.com
+
+app:
+ messages:
+    invalidLogin: Invalid Credential
+    successMsg: Registration is successfully done..Your password is sent on your email
+    failureMsg: Registration failed.. Please try again
+    pwdUpdateFail: Both new and confirmed password must be same
+    subject: Password-Priya IT
+      
+   
